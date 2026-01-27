@@ -2,7 +2,7 @@ import XYZLogo from "../assets/img/XYZ-Logo.png";
 import TaflaLogo from "../assets/img/Tafla-Logo.png";
 
 //Styles
-const textStyles = "text-sm/6 font-thin";
+const textStyles = "text-sm/6";
 const containerSideStyles =
   "flex flex-col items-center justify-between h-full max-w-80 text-center flex-wrap p-6 gap-5";
 const headingStyles = "font-bold text-xl";
