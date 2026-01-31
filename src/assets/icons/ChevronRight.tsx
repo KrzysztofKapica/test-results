@@ -1,10 +1,7 @@
-export const ChevronRight = ({
-  className = "",
-}: {
-  className?: string;
-}) => {
+export const ChevronRight = ({ className = "" }: { className?: string }) => {
   return (
     <svg
+      className={className}
       width="40"
       height="40"
       viewBox="0 0 40 40"
