@@ -9,7 +9,7 @@ const cardText = [
 
 const HabitSection = () => {
   return (
-    <section className="bg-brandGreen  flex flex-col justify-around px-6 py-24">
+    <section className="bg-brandGreen  flex flex-col justify-around px-6 py-24 bg-[url('src/assets/backgrounds/dots.svg')]">
       <div className="flex flex-col items-center font-bold text-xl gap-6">
         <h3 className="text-white">Zbadaliśmy takie mikro-nawyki jak:</h3>
         <div className="flex flex-wrap gap-2  justify-center">
