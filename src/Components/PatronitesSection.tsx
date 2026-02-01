@@ -9,7 +9,7 @@ const headingStyles = "font-bold text-xl";
 
 const PatronitesSections = () => {
   return (
-    <section className="bg-brandBlue text-white flex justify-around  flex-wrap px-16 py-2 bg-[url('src/assets/backgrounds/dots.svg')]">
+    <section className="bg-brandBlue text-white flex justify-around  flex-wrap px-16 py-2 bg-[url('./public/backgrounds/dots.svg')]">
       {/* Left side */}
       <div className={containerSideStyles}>
         <h3 className={headingStyles}>Patron medialny</h3>

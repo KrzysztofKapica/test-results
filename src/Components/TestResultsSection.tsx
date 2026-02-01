@@ -1,6 +1,6 @@
 const TestResultsSection = () => {
   return (
-    <section className="bg-[url('src/assets/backgrounds/dots.svg')] bg-brandYellow py-12 flex items-center justify-around min-h-96 flex-wrap">
+    <section className="bg-[url('./public/backgrounds/dots.svg')] bg-brandYellow py-12 flex items-center justify-around min-h-96 flex-wrap">
       <div className="flex flex-col flex-wrap items-center w-64 h-48 text-center justify-around my-4 mx-2">
         <h3 className="text-2xl font-bold">Cel badania</h3>
         <p className="text-sm">
