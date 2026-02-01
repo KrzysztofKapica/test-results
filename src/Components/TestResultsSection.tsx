@@ -1,6 +1,6 @@
 const TestResultsSection = () => {
   return (
-    <section className="bg-[url('src/assets/backgrounds/dots.svg')] bg-brandYellow py-12 flex items-center justify-around min-h-96 flex-wrap">
+    <section className="bg-[url('./public/backgrounds/dots.svg')] bg-brandYellow py-12 flex items-center justify-around min-h-96 flex-wrap">
       <div className="flex flex-col flex-wrap items-center w-64 h-48 text-center justify-around my-4 mx-2">
         <h3 className="text-2xl font-bold">Cel badania</h3>
         <p className="text-sm">
@@ -13,7 +13,7 @@ const TestResultsSection = () => {
           50-10-40.
         </p>
       </div>
-      <div className="grid text-xl grid-rows-2 grid-cols-2 w-1/2 text-center gap-6 my-4">
+      <div className="grid text-2xl grid-rows-2 grid-cols-1 w-1/2 text-center gap-6 my-4 sm:grid-cols-2 ">
         <div className="flex flex-col  justify-center">
           <p className="font-bold">00%</p>
           <p>zależy od genów</p>
