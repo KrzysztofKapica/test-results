@@ -1,6 +1,6 @@
 const StartSection = () => {
   return (
-    <section className="py-16 bg-white relative before:absolute before:left-0 before:top-0 before:h-full before:w-full before:bg-[url('./public/backgrounds/straight-lines.svg')] before:bg-contain before:bg-repeat before:opacity-30">
+    <section className="py-16 bg-white relative before:absolute before:left-0 before:top-0 before:h-full before:w-full before:bg-[url('/backgrounds/straight-lines.svg')] before:bg-[length:500px] before:bg-repeat before:opacity-30">
       <div className="container mx-auto relative px-8 md:px-4 flex flex-col items-start">
         <div className="mt-5">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
