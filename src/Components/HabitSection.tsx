@@ -19,7 +19,7 @@ const HabitSection = () => {
   }, []);
 
   return (
-    <section className="bg-brandGreen flex flex-col justify-around px-6 py-24 bg-[url('./public/backgrounds/dots.svg')] overflow-hidden">
+    <section className="bg-brandGreen flex flex-col justify-around px-6 py-24 bg-[url('/backgrounds/dots.svg')] overflow-hidden">
       <div className="flex flex-col items-center font-bold text-xl gap-10 w-full">
         <h3 className="text-white text-center">
           Zbadaliśmy takie mikro-nawyki jak:
