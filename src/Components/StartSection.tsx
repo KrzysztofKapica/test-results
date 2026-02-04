@@ -22,7 +22,6 @@ const StartSection = () => {
             Dołącz do inicjatywy!
           </a>
           <div className="h-[100px]"></div>
-        </div>
       </div>
     </section>
   );
