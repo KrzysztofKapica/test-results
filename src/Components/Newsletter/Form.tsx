@@ -41,7 +41,7 @@ const Form = () => {
         />
         <button
           type="submit"
-          className="bg-[#198F51] text-white absolute right-0 rounded-r-xl px-3 cursor-pointer border border-black"
+          className="bg-[#198F51] text-white absolute right-0 rounded-r-xl px-3 cursor-pointer border border-black hover:bg-black"
         >
           Subskrybuj
         </button>
