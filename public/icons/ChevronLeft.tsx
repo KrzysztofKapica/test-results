@@ -1,0 +1,20 @@
+export const ChevronLeft = ({
+  className = "",
+}: {
+  className?: string;
+}) => {
+  return (
+    <svg
+      width="40"
+      height="40"
+      viewBox="0 0 40 40"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M19 20L26.6667 27.6667L24.3333 30L14.3333 20L24.3333 10L26.6667 12.3333L19 20Z"
+        fill="#2F2F2F"
+      />
+    </svg>
+  );
+};
