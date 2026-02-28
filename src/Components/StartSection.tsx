@@ -25,7 +25,7 @@ const StartSection = () => {
 
           <img 
             src="/images/fundacja-szczesliwsi.png"
-            className="absolute right-[160px] bottom-[-5px] z-10 w-[200px] md:w-[350px] lg:w-[450px]"
+            className="absolute right-[3vw] bottom-[-0.5vw] z-10 w-[60vw] sm:w-[62vw] md:w-[56vw] lg:w-[44vw] max-w-[450px]"
           />
       </div>
     </section>
