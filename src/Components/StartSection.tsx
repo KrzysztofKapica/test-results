@@ -16,12 +16,17 @@ const StartSection = () => {
 
           <a
             href="#TODO"
-            className="bg-brandYellow text-black font-bold text-lg px-4 py-2 rounded-full border-2 border-black hover:opacity-80 transition-colors text-sm -ml-4 shadow-lg"
+            className="relative z-[11] bg-brandYellow text-black font-bold text-lg px-4 py-2 rounded-full border-2 border-black hover:opacity-80 transition-colors text-sm -ml-4 shadow-lg"
             // plus cien i w lewo - zjustowac tekst, ale ramka moze byc w lewo
           >
             Dołącz do inicjatywy!
           </a>
           <div className="h-[100px]"></div>
+
+          <img 
+            src="/images/fundacja-szczesliwsi.png"
+            className="absolute right-[160px] bottom-[-5px] z-10 w-[200px] md:w-[350px] lg:w-[450px]"
+          />
       </div>
     </section>
   );
